@@ -35,13 +35,11 @@
                 default:
                 childrenString = "πολύτεκνος";
             }
-            if (married == true){
-            alert("Παντρεμένος/η & "+ childrenString);
-        } else {
-            alert("Ανύπαντρος/η & "+ childrenString);
+            const msg = (married) ? "Παντρεμένος/η" : "Ανύπαντρος/η";
+            alert(msg + " & " + childrenString);
         }
 
-        }
+        
                 
 
 
